@@ -64,6 +64,10 @@ db.json
   }
 }
 
+npm start
+
+http://localhost:3001/
+
 /************/
 
 # Frontend
