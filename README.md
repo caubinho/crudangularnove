@@ -1,3 +1,71 @@
+# Backend
+
+Create DB file
+
+npm init
+
+db.json
+
+/***********/
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Macbook Pro",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Pc gamer",
+      "price": 4000.89
+    },
+    {
+      "name": "Novo produto Celular",
+      "price": "10.99",
+      "id": 4
+    },
+    {
+      "name": "Produto 2008",
+      "price": "234.54",
+      "id": 5
+    },
+    {
+      "name": "Geladeira 400 litros",
+      "price": null,
+      "id": 6
+    }
+  ]
+}
+
+/***********/
+
+# install npm json-serve
+
+/***********/
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
+
+/************/
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
