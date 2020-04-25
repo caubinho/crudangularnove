@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "peluqueria-calle-brasil"
+  },
+  "targets": {
+    "peluqueria-calle-brasil": {
+      "hosting": {
+        "frontend": [
+          "peluqueria-calle-brasil"
+        ]
+      }
+    }
+  }
+}
