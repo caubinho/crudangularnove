@@ -22,7 +22,7 @@ export class ProductUpdateComponent implements OnInit {
   ngOnInit(): void {
 
     //pego a id da rota
-    const id = this.route.snapshot.paramMap.get('id')
+    const id = +this.route.snapshot.paramMap.get('id')
 
     //Atualizo o form com dados ao inicializar pegando o id
     this.productService.readById(id).subscribe(product => {
