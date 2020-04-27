@@ -1,4 +1,4 @@
-import { HeaderData } from './header-data';
+import { HeaderData } from './header-data.model';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
